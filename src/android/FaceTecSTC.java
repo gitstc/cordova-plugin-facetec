@@ -10,6 +10,21 @@ import org.json.JSONException;
 import okhttp3.Call;
 import okhttp3.Callback;
 
+import java.io.IOException;
+
+import static java.util.UUID.randomUUID;
+
+import Processors.Config;
+import Processors.NetworkingHelpers;
+import Processors.PhotoIDMatchProcessor;
+import Processors.Processor;
+
+import com.facetec.sdk.FaceTecIDScanResult;
+import com.facetec.sdk.FaceTecIDScanStatus;
+import com.facetec.sdk.FaceTecSDK;
+import com.facetec.sdk.FaceTecSessionResult;
+import com.facetec.sdk.FaceTecSessionStatus;
+
 public class FaceTecSTC extends CordovaPlugin {
 
     public FaceTecSessionResult latestSessionResult;
