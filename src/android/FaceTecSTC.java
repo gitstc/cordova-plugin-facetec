@@ -7,6 +7,9 @@ import org.json.JSONObject;
 import org.json.JSONArray;
 import org.json.JSONException;
 
+import okhttp3.Call;
+import okhttp3.Callback;
+
 public class FaceTecSTC extends CordovaPlugin {
 
     public FaceTecSessionResult latestSessionResult;
