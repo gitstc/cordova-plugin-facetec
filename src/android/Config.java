@@ -77,12 +77,12 @@ public class Config {
 
         // For Cancel Button Customization
         //int cancelButtonImage = R.drawable.facetec_cancel;
-        int cancelButtonImage = R.drawable.ic_launcher_background;
+        int cancelButtonImage = 1;//R.drawable.ic_launcher_background;
         FaceTecCancelButtonCustomization.ButtonLocation cancelButtonLocation = FaceTecCancelButtonCustomization.ButtonLocation.TOP_LEFT;
 
         // For image Customization
         //int yourAppLogoImage = R.drawable.facetec_your_app_logo;
-        int yourAppLogoImage = R.drawable.ic_launcher_background;
+        int yourAppLogoImage = 1;//R.drawable.ic_launcher_background;
         FaceTecSecurityWatermarkImage securityWatermarkImage = FaceTecSecurityWatermarkImage.FACETEC;
         
 

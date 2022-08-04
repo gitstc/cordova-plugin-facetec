@@ -65,7 +65,7 @@ public class FaceTecSTC extends CordovaPlugin {
                 }
 
                 // Displays the FaceTec SDK Status to text field.
-                Log.d("FaceTecSDKSampleApp", FaceTecSDK.getStatus(MainActivity.this).toString());
+                Log.d("FaceTecSDKSampleApp", FaceTecSDK.getStatus(cordova.getActivity()).toString());
             }
         });
     
