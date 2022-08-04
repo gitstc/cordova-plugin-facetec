@@ -7,7 +7,6 @@ package com.stc.facetec;
 import android.content.Context;
 import android.graphics.Color;
 
-import com.stc.facetec.R;
 import com.facetec.sdk.FaceTecCancelButtonCustomization;
 import com.facetec.sdk.FaceTecCustomization;
 import com.facetec.sdk.FaceTecSDK;
