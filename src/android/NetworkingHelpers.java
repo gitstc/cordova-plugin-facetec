@@ -1,5 +1,5 @@
 // Demonstrates calling the FaceTec Managed Testing API and/or FaceTec Server
-package Processors;
+package com.stc.facetec;
 
 import android.os.Build;
 

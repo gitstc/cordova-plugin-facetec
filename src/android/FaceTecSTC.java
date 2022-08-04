@@ -14,11 +14,6 @@ import java.io.IOException;
 
 import static java.util.UUID.randomUUID;
 
-import Processors.Config;
-import Processors.NetworkingHelpers;
-import Processors.PhotoIDMatchProcessor;
-import Processors.Processor;
-
 import com.facetec.sdk.FaceTecIDScanResult;
 import com.facetec.sdk.FaceTecIDScanStatus;
 import com.facetec.sdk.FaceTecSDK;

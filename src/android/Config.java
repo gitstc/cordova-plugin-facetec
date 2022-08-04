@@ -2,8 +2,7 @@
 // FaceTec Device SDK config file.
 // Auto-generated via the FaceTec SDK Configuration Wizard
 //
-
-package Processors;
+package com.stc.facetec;
 
 import android.content.Context;
 import android.graphics.Color;

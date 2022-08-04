@@ -1,7 +1,7 @@
 //
 // Welcome to the annotated FaceTec Device SDK core code for performing secure Enrollment!
 //
-package Processors;
+package com.stc.facetec;
 
 import android.content.Context;
 import android.util.Log;
