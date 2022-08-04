@@ -1,0 +1,17 @@
+{
+    "name": "cordova-plugin-facetec-stc",
+    "version": "0.0.1",
+    "description": "ID & Biometric Verification Plugin",
+    "repository": {
+      
+    },
+    "keywords": [
+      "cordova",
+      "ecosystem:cordova"
+    ],
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "author": "STC/TSU"
+  }

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-facetec-stc" version="0.2.3">
+    <name>Device</name>
+    <description>Cordova FaceTecSTC Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,facetecSTC</keywords>
+    <js-module src="www/FaceTecSTC.js" name="FaceTecSTC">
+        <clobbers target="FaceTecSTC" />
+    </js-module>
+     <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="FaceTecSTC">
+                <param name="android-package" value="FaceTecSTC"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/FaceTecSTC.java" target-dir="com/stc/facetec" />
+        <lib-file src="src/android/facetec-sdk-9.4.12.aar"/>
+    </platform>
+
+    <!-- <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="FaceTecSTC">
+                <param name="ios-package" value="FaceTecSTC"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/FaceTecSTC.h" />
+        <source-file src="src/ios/FaceTecSTC.m" />
+    </platform> -->
+</plugin>
