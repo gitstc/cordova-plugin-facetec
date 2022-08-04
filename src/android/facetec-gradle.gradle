@@ -1,0 +1,9 @@
+repositories{
+    jcenter()
+    flatDir{
+        dirs 'src/main/libs'
+    }
+}
+dependencies {
+   implementation files('libs/facetec-sdk-9.4.12.aar')
+}
