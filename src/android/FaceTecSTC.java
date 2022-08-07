@@ -32,6 +32,7 @@ public class FaceTecSTC extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+        Log.d(TAG, "Execute Action " + action);
     if(action.equals("MatchFaceID")){
 
 
