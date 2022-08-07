@@ -21,7 +21,7 @@
         <source-file src="src/android/Processor.java" target-dir="com/stc/facetec" />
         <!-- <source-file src="src/android/facetec-sdk.jar" target-dir="libs" /> -->
         <source-file src="src/android/facetec-sdk.aar" target-dir="libs" />
-        <framework src="src/android/*.gradle" custom="true" type="gradleReference" />
+        <framework src="src/android/facetec.gradle" custom="true" type="gradleReference" />
         <framework src="androidx.appcompat:appcompat:1.3.0" />
         <framework src="com.squareup.okhttp3:okhttp:3.12.1" />
         <framework src="com.squareup.okio:okio:1.15.0" />
